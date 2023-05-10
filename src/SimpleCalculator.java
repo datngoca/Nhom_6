@@ -102,7 +102,6 @@ public class SimpleCalculator extends JFrame implements ActionListener {
 		doMinus();
 		if (e.getActionCommand()=="*")
 		doMult();
-		if (e.getActionCommand()=="/")
 		doDiv();
 	
 	}
