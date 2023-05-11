@@ -84,12 +84,14 @@ public class SimpleCalculator extends JFrame implements ActionListener {
 	/*Định nghĩa hàm nhân*/
 	public void doMult() 
 	{
-
+		result = Double.parseDouble(tf1.getText()) * Double.parseDouble(tf2.getText());
+		tf3.setText(String.valueOf(result));
 	}
 	/*Định nghĩa hàm chia*/
 	public void doDiv()
 	{
-
+		result = Double.parseDouble(tf1.getText()) / Double.parseDouble(tf2.getText());
+		tf3.setText(String.valueOf(result));
 	} 
 	
 	/*Định nghĩ lại hàm xử lý khi người dùng ấn các nút phép toán*/
