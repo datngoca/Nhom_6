@@ -71,11 +71,14 @@ public class SimpleCalculator extends JFrame implements ActionListener {
 	/*Định nghĩa hàm cộng*/
 	public void doPlus() 
 	{ 
-
+		result = Double.parseDouble(tf1.getText()) + Double.parseDouble(tf2.getText());
+        tf3.setText(String.valueOf(result));
 	}
 	/*Định nghĩa hàm trừ*/
 	public void doMinus() 
 	{ 
+		result = Double.parseDouble(tf1.getText()) - Double.parseDouble(tf2.getText());
+        tf3.setText(String.valueOf(result));
 
 	}
 	/*Định nghĩa hàm nhân*/
