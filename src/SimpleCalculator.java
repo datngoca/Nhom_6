@@ -14,7 +14,7 @@ public class SimpleCalculator extends JFrame implements ActionListener {
 	private Container cont;
 	/*Dùng để nhóm các thành phần trên giao diện*/
 	private JPanel panel1, panel2;
-
+//hieu
 	/*Hàm khởi tạo*/
 	public SimpleCalculator(String s)
 	{ 
