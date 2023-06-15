@@ -54,6 +54,7 @@ public class SimpleCalculator extends JFrame implements ActionListener {
 		panel2.add(bt2);
 		panel2.add(bt3);
 		panel2.add(bt4);
+		// Thai Hieu
 		
 		/*Đặt 2 panel vào ContentPane*/
 		cont.add(panel1); 
